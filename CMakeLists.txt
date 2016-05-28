@@ -7,6 +7,8 @@ if(NOT ${CMAKE_VERSION} VERSION_LESS 3.0.0)
 endif()
 project(omplapp CXX C)
 
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}" )
+
 # set the default build type
 if (NOT CMAKE_BUILD_TYPE)
     # By default, use Release mode
