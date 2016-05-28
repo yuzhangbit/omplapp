@@ -22,6 +22,8 @@ addons:
       - libeigen3-dev
       - freeglut3-dev
       - libassimp-dev
+      - python-opengl
+      - python-pyside
 
 install:
   - if [ ! -e /usr/local/lib/libfcl.so ]; then
