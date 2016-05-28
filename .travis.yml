@@ -59,7 +59,4 @@ script:
   # Build
   - make -j4
 
-  # Run unit tests
-  # On OS X, exclude test_machine_specs; fails due to "lazy" memory freeing in Release mode (test passes in Debug builds).
-  # On OS X, exclude test_random; fails due to bug in Boost.Random in 1.56.
   
