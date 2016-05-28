@@ -45,8 +45,8 @@ install:
 
 script:
   # get OMPL subrepository
-  - git clone --depth=1 --branch=master git://github.com/ompl/ompl.git
-
+  - git submodule init
+  - git submodule update
   # Create build directory
   - mkdir -p build
   - cd build
